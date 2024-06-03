@@ -21,7 +21,7 @@ const Hero = () => {
             </span>
           </div>
           <div className="flex flex-col sm:flex-row items-center ml-12 sm:ml-16 xl:ml-36 space-x-4 sm:space-x-10 absolute inset-y-64 sm:inset-0 sm:-mt-20 lg:-mt-24 xl:-mt-40">
-            <button className="flex items-center w-52 xs:w-fit space-x-2 py-3 px-10 bg-black text-white rounded-md">
+            <button className="flex items-center w-52 xs:w-fit space-x-2 py-3 px-10 bg-black text-white rounded-md hover:bg-gray-800 duration-200 active:bg-black">
               <span>Get Started</span>
               <Image src={arrow} width={25} height={10} alt="" />
             </button>

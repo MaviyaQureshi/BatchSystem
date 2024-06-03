@@ -38,23 +38,27 @@ const Nav2 = () => {
       >
         <ul className="flex flex-col justify-center items-center space-y-12 w-full">
           <li className="flex justify-center w-full py-4">
-            <button className="font-extrabold text-[#FF5555] hover:cursor-pointer">
+            <button className="font-semibold focus:font-extrabold focus:text-[#FF5555] hover:cursor-pointer duration-150">
               Home
             </button>
           </li>
           <li className="flex justify-center w-full py-4">
-            <button className="font-semibold">About Us</button>
+            <button className="font-semibold focus:font-extrabold focus:text-[#FF5555] hover:cursor-pointer duration-150">
+              About Us
+            </button>
           </li>
           <li className="flex justify-center w-full py-4">
-            <button className="font-semibold">Pricing</button>
+            <button className="font-semibold focus:font-extrabold focus:text-[#FF5555] hover:cursor-pointer duration-150">
+              Pricing
+            </button>
           </li>
           <li className="flex justify-center w-full py-4">
-            <button className="font-semibold hover:cursor-pointer">
+            <button className="font-semibold focus:font-extrabold focus:text-[#FF5555] hover:cursor-pointer duration-150">
               Features
             </button>
           </li>
           <li className="flex justify-center w-full py-4">
-            <button className="font-semibold py-3 px-20 bg-black text-white rounded-md">
+            <button className="font-semibold py-3 px-20 bg-black text-white rounded-md hover:bg-gray-800 duration-300 active:bg-slate-200 active:text-black">
               Download
             </button>
           </li>

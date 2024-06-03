@@ -14,7 +14,7 @@ const GetStarted = () => {
           <span className="pt-4 w-[50%] text-[10px] sm:text-xs md:text-base">
             Risus Habitant Leo Egestas Mauris Diam Eget Morbi Tempus Vulputate.
           </span>
-          <button className="flex items-center space-x-3 justify-center py-2 md:py-4 px-5 md:px-10 mt-6 rounded-md bg-white ">
+          <button className="flex items-center space-x-3 justify-center py-2 md:py-4 px-5 md:px-10 mt-6 rounded-md bg-white focus:bg-slate-200 duration-200 ">
             <span className="text-black text-xs sm:text-sm md:text-lg font-medium">
               Download App
             </span>
