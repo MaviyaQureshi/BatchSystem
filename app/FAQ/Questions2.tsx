@@ -4,7 +4,8 @@ const map = [
     main: 123,
     key1: 10,
     key2: 11,
-    style: "flex flex-col p-8 bg-[#FF5555] text-white w-[80%] rounded-md",
+    style:
+      "flex flex-col p-8 bg-[#FF5555] text-white w-[27rem] xs:w-[90%] sm:w-[80%] rounded-md",
     title: "The Best Financial Accounting App Ever!",
     description:
       '"Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.In ultrices malesuada elit mauris."',
@@ -14,7 +15,7 @@ const map = [
     main: 234,
     key1: 12,
     key2: 13,
-    style: "flex flex-col p-8 w-[80%] rounded-md",
+    style: "flex flex-col p-8 w-[27rem] xs:w-[90%] sm:w-[80%] rounded-md",
     title: "The Best Financial Accounting App Ever!",
     description:
       '"Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.In ultrices malesuada elit mauris."',
@@ -24,7 +25,8 @@ const map = [
     main: 345,
     key1: 14,
     key2: 15,
-    style: "flex flex-col p-8 bg-[#FF5555] text-white w-[80%] rounded-md",
+    style:
+      "flex flex-col p-8 bg-[#FF5555] text-white w-[27rem] xs:w-[90%] sm:w-[80%] rounded-md",
     title: "The Best Financial Accounting App Ever!",
     description:
       '"Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.In ultrices malesuada elit mauris."',
@@ -34,7 +36,7 @@ const map = [
     main: 456,
     key1: 16,
     key2: 17,
-    style: "flex flex-col p-8  w-[80%] rounded-md",
+    style: "flex flex-col p-8  w-[27rem] xs:w-[90%] sm:w-[80%] rounded-md",
     title: "The Best Financial Accounting App Ever!",
     description:
       '"Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.In ultrices malesuada elit mauris."',
@@ -44,7 +46,8 @@ const map = [
     main: 567,
     key1: 18,
     key2: 19,
-    style: "flex flex-col p-8 bg-[#FF5555] text-white w-[80%] rounded-md",
+    style:
+      "flex flex-col p-8 bg-[#FF5555] text-white w-[27rem] xs:w-[90%] sm:w-[80%] rounded-md",
     title: "The Best Financial Accounting App Ever!",
     description:
       '"Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.In ultrices malesuada elit mauris."',
@@ -54,7 +57,7 @@ const map = [
     main: 678,
     key1: 20,
     key2: 21,
-    style: "flex flex-col p-8  w-[80%] rounded-md",
+    style: "flex flex-col p-8  w-[27rem] xs:w-[90%] sm:w-[80%] rounded-md",
     title: "The Best Financial Accounting App Ever!",
     description:
       '"Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.In ultrices malesuada elit mauris."',

@@ -9,13 +9,21 @@ import Footer from "./Footer/page";
 export default function Home() {
   return (
     <>
-      <NavBar />
-      <Hero />
-      <Features />
-      <Testimonial />
-      <FAQ />
-      <GetStarted />
-      <Footer />
+      <div className="flex flex-col">
+        <div className="h-[15%] z-10">
+          <NavBar />
+        </div>
+        <div className="h-full z-1">
+          <Hero />
+        </div>
+        <div>
+          <Features />
+          <Testimonial />
+          <FAQ />
+          <GetStarted />
+          <Footer />
+        </div>
+      </div>
     </>
   );
 }

@@ -20,12 +20,12 @@ const Hero = () => {
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
             </span>
           </div>
-          <div className="flex items-center ml-12 sm:ml-16 xl:ml-36 space-x-10 absolute inset-0 -mt-36 sm:-mt-20 lg:-mt-24 xl:-mt-40">
-            <button className="flex items-center space-x-2 py-3 px-10 bg-black text-white rounded-md">
+          <div className="flex flex-col sm:flex-row items-center ml-12 sm:ml-16 xl:ml-36 space-x-4 sm:space-x-10 absolute inset-y-64 sm:inset-0 sm:-mt-20 lg:-mt-24 xl:-mt-40">
+            <button className="flex items-center w-52 xs:w-fit space-x-2 py-3 px-10 bg-black text-white rounded-md">
               <span>Get Started</span>
               <Image src={arrow} width={25} height={10} alt="" />
             </button>
-            <button className="flex items-center space-x-3 ">
+            <button className="mt-5 sm:mt-0 flex items-center space-x-3 ">
               <Image src={video} width={35} height={20} alt="" />
               <span className="text-xl font-medium">Watch Video</span>
             </button>
@@ -33,7 +33,7 @@ const Hero = () => {
           <Image
             src={Imag11}
             alt="GO back"
-            className="mt-20 md:mt-28 xl:mt-0 sm:pl-16 xl:pl-28 w-[500px] lg:w-[550px] xl:w-[700px]"
+            className="hidden sm:block mt-20 md:mt-28 xl:mt-0 sm:pl-16 xl:pl-28 w-[500px] lg:w-[550px] xl:w-[700px]"
           />
         </div>
         <Image

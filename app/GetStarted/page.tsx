@@ -6,8 +6,8 @@ import iphone from "../../public/iphone.png";
 const GetStarted = () => {
   return (
     <>
-      <div className="flex relative">
-        <div className="flex flex-col absolute items-start inset-12 sm:inset-20 md:inset-32 lg:inset-36 xl:inset-56 text-white pt-20 sm:pt-24 md:pt-28 lg:pt-36 ml-10">
+      <div className="flex relative w-[40rem] xs:w-fit">
+        <div className="flex flex-col absolute items-start inset-20 md:inset-32 lg:inset-36 xl:inset-56 text-white pt-20 sm:pt-24 md:pt-28 lg:pt-36 ml-10">
           <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter">
             Ready To Get Started?
           </span>
@@ -21,7 +21,7 @@ const GetStarted = () => {
             <Image src={iphone} alt="" className="w-[15px] md:w-[20px]" />
           </button>
         </div>
-        <Image src={ready} alt="" />
+        <Image src={ready} alt="" className="" />
       </div>
     </>
   );

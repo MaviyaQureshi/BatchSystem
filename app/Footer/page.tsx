@@ -7,8 +7,8 @@ import Col5 from "./Col5";
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col items-center">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:flex justify-center space-y-1 md:space-x-4 lg:space-x-8 xl:space-x-20 ml-20 md:ml-0 mt-16 xl:mr-16">
+      <div className="flex flex-col items-center w-[40rem] xs:w-fit">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:flex justify-center space-y-1 space-x-6 md:space-x-4 lg:space-x-8 xl:space-x-20 ml-20 md:ml-0 mt-16 xl:mr-16">
           <Col1 />
           <Col2 />
           <Col3 />

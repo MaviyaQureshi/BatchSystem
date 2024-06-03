@@ -6,15 +6,15 @@ import star from "../../public/Star 7.png";
 const Feature3 = () => {
   return (
     <>
-      <div className="flex items-center lg:ml-14 space-x-8">
+      <div className="flex items-center ml-14 xs:ml-14 space-x-8 w-[33rem] xs:w-fit">
         <Image
           src={img4}
           alt=""
-          className="w-[250px] sm:w-[400px] lg:w-[600px] xl:w-[850px]"
+          className="hidden sm:block sm:w-[400px] lg:w-[600px] xl:w-[850px]"
         />
         <div className="flex flex-col pt-48">
           <div className="flex items-center space-x-4">
-            <Image src={round} className="w-[30px] md:w-full" alt="" />
+            <Image src={round} alt="" />
             <span className="tracking-tight font-extrabold text-xl md:text-3xl">
               Fully Customizable
             </span>
@@ -27,7 +27,7 @@ const Feature3 = () => {
             Suspendisse Aliquam.
           </span>
           <div className="flex justify-end mr-24 sm:mr-64 mt-32 sm:w-full sm:mt-48">
-            <Image src={star} alt="" className="w-10 sm:w-full" />
+            <Image src={star} alt="" className="w-fit" />
           </div>
         </div>
       </div>

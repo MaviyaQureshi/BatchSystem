@@ -19,7 +19,7 @@ const Nav2 = () => {
   };
 
   return (
-    <div className="flex items-center justify-between px-10 xs:px-8 sm:px-12 md:px-24 xl:px-44 pt-7 w-[40rem] xs:w-full">
+    <div className="flex items-center justify-between px-10 xs:px-8 sm:px-12 md:px-24 xl:px-44 pt-7 w-[40rem] sm  :w-full">
       <Logo />
       <button onClick={menuToggle} className="z-50">
         {open ? (
@@ -34,7 +34,7 @@ const Nav2 = () => {
         )}
       </button>
       <div
-        className={`${visible} flex w-[40rem] xs:w-full items-center justify-center h-full bg-gray-50 inset-0 absolute z-10`}
+        className={`${visible} flex w-[40rem] sm:w-full items-center justify-center h-[100vh] bg-gray-50 inset-0 absolute z-10`}
       >
         <ul className="flex flex-col justify-center items-center space-y-12 w-full">
           <li className="flex justify-center w-full py-4">

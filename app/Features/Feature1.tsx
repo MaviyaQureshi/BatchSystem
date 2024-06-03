@@ -32,11 +32,11 @@ const map = [
 const Feature1 = () => {
   return (
     <>
-      <div className="flex items-center relative">
+      <div className="flex items-center relative mt-72 ml-24 xs:mt-0 xs:ml-0 w-[35rem] xs:w-fit">
         <Image
           src={img2}
           alt=""
-          className="ml-4 xl:ml-14 w-[300px] sm:w-[400px] md:w-[550px] lg:w-[650px] xl:w-[750px]"
+          className="ml-4 xl:ml-14 hidden sm:block sm:w-[400px] md:w-[550px] lg:w-[650px] xl:w-[750px]"
         />
         <div className="flex flex-col">
           <span className="tracking-widest font-medium text-[#FF5555] text-sm md:text-lg lg:text-xl">

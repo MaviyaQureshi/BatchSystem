@@ -6,12 +6,12 @@ const map = [
     key0: 10,
     key1: 11,
     style:
-      "flex flex-col p-8 bg-[#FF5555] text-white w-[45%] xl:w-[40%] rounded-md",
+      "flex flex-col p-8 bg-[#FF5555] text-white w-[45%] xl:w-[43%] rounded-md",
     title: "The Best Financial Accounting App Ever!",
     description:
       '"Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.In ultrices malesuada elit mauris."',
     id1: 1,
-    style1: "flex flex-col p-8 w-[45%] xl:w-[40%] rounded-md",
+    style1: "flex flex-col p-8 w-[45%] xl:w-[43%] rounded-md",
     key2: 12,
     key3: 13,
   },
@@ -21,7 +21,7 @@ const map = [
     id0: 2,
     key0: 14,
     key1: 15,
-    style: "flex flex-col p-8 w-[45%] xl:w-[40%] rounded-md",
+    style: "flex flex-col p-8 w-[45%] xl:w-[43%] rounded-md",
     title: "The Best Financial Accounting App Ever!",
     description:
       '"Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.In ultrices malesuada elit mauris."',
@@ -29,7 +29,7 @@ const map = [
     key2: 16,
     key3: 17,
     style1:
-      "flex flex-col p-8 bg-[#FF5555] text-white w-[45%] xl:w-[40%] rounded-md",
+      "flex flex-col p-8 bg-[#FF5555] text-white w-[45%] xl:w-[43%] rounded-md",
   },
   {
     main: "flex space-x-8 mt-4",
@@ -38,14 +38,14 @@ const map = [
     key0: 18,
     key1: 19,
     style:
-      "flex flex-col p-8 bg-[#FF5555] text-white w-[45%] xl:w-[40%] rounded-md",
+      "flex flex-col p-8 bg-[#FF5555] text-white w-[45%] xl:w-[43%] rounded-md",
     title: "The Best Financial Accounting App Ever!",
     description:
       '"Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.In ultrices malesuada elit mauris."',
     id1: 5,
     key2: 20,
     key3: 21,
-    style1: "flex flex-col p-8  w-[45%] xl:w-[40%] rounded-md",
+    style1: "flex flex-col p-8  w-[45%] xl:w-[43%] rounded-md",
   },
 ];
 
